@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/medida.css">
+
+</head>
+<body>
+	<script src="js/medida.js"></script>
+	<script src="js/jquery.min.js"></script>
+	<div id="body">
+		<div id="caja-medidas">
+			<table>
+				<tr>
+					<td><input type="number" id="valor" style="position: absolute; top: 2%; left: 1%; width: 55%; height: 15%; font-size: 120%;" /></td>
+					<td>
+						<select id="opcion1">
+							<option value="1">METROS</option>
+							<option value="2">MILLAS</option>
+							<option value="3">KM</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td><p id="resultado"></p></td>
+					<td>
+						<select id="opcion2">
+							<option value="1">METROS</option>
+							<option value="2">MILLAS</option>
+							<option value="3">KM</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td><button id="btn-calcular" onClick="convertir();">Hacer convercion</button></td>
+				</tr>
+			</table>
+			<a href="index.html"><button id="btn-index" >REGRESAR</button></a>
+		</div>
+	</div>
+
+	
+</body>
+</html>

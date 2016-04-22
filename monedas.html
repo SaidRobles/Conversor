@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/monedas.css">
+</head>
+<body>
+	<script src="js/monedas.js"></script>
+	<script src="js/jquery.min.js"></script>
+	<div id="body">
+		<div id="caja-divisas">
+			<table>
+				<tr>
+					<td><input type="number" id="valor" style="position: absolute; top: 2%; left: 1%; width: 55%; height: 15%; font-size: 120%;"/></td>
+					<td>
+						<select id="opcion1">
+							<option value="1">PESOS</option>
+							<option value="2">DOLARES</option>
+							<option value="3">EUROS</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td><p id="resultado"></p></td>
+					<td>
+						<select id="opcion2">
+							<option value="1">PESOS</option>
+							<option value="2">DOLARES</option>
+							<option value="3">EUROS</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td><button id="btn-calcular" onClick="convertir();">Hacer Convercion</button></td>
+				</tr>
+			</table>
+			<a href="index.html"><button id="btn-index">REGRESAR</button></a>
+		</div>
+	</div>
+</body>
+</html>
